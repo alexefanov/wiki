@@ -1,6 +1,6 @@
 {
   "pythonPath": "python",
-  "enablePlugins": false,
+  "enablePlugins": true,
   "pluginArgs": [],
   "docintelEndpoint": "",
   "outputPath": "raw",
