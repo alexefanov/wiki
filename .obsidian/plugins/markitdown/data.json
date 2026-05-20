@@ -13,5 +13,14 @@
   "enableDragDrop": true,
   "enableAutoFrontmatter": true,
   "autoTags": "",
-  "conversionHistory": []
+  "conversionHistory": [
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779295043609___.__________________.pdf",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\РД. ЭО Мониторинг АЭС.md",
+      "timestamp": "2026-05-20T16:37:45.813Z",
+      "success": true,
+      "processingTimeMs": 22024,
+      "imagesExtracted": 0
+    }
+  ]
 }
