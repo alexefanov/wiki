@@ -2,6 +2,13 @@
 
 Хронологический журнал изменений LLM-Wiki.
 
+## [2026-05-20] ingest | Reconciliation — no new sources
+
+- Запрошен ingest всего `raw/`: сверка с [[Source Notes]] и файловой системой.
+- В `raw/` — 9 файлов; все уже ingested (последний полный ingest — 2026-05-04).
+- Новых, удалённых и изменённых raw-источников не обнаружено; `wiki/` не менялся.
+- Напоминание: `raw/Zettelkasten и Obsidian ваш помощник в структурировании знаний.md` по-прежнему неполный — нужен повторный clip или другой источник.
+
 ## [2026-05-04] ingest | Initial raw folder bootstrap
 
 - Processed 9 sources from `raw/` without modifying raw files.
