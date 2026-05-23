@@ -124,6 +124,7 @@
 ## Полезные маршруты
 
 - Для настройки этого vault: [[LLM Wiki]] -> [[LLM Wiki Workflow]] -> [[LLM Wiki Lifecycle]].
+- Для настройке Obsidian и плагинов: [[Инструкции по Obsidian и Git]]
 - Для практики ведения заметок: [[Obsidian]] -> [[Zettelkasten]] -> [[Second Brain]].
 - Для захвата новых материалов: [[Obsidian Web Clipper]] -> [[LLM Wiki Workflow]].
 
