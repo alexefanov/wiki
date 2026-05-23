@@ -156,3 +156,4 @@ git reset
    ```
 
    Ошибка `Filename too long` больше не появится.
+
