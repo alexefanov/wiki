@@ -1,0 +1,5 @@
+{
+  "outputFolder": "attachments",
+  "autoConvert": true,
+  "filenameFormat": "image-{{date}}-{{index}}"
+}

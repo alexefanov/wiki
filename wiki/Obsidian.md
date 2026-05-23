@@ -21,9 +21,9 @@ Obsidian - локальная markdown-среда для связанных за
 
 ## Источники
 
-- [raw/Build a Second Brain Using Obsidian - A Practical Guide for Engineers.md](../raw/Build%20a%20Second%20Brain%20Using%20Obsidian%20%E2%80%93%20A%20Practical%20Guide%20for%20Engineers.md)
-- [raw/Zettelkasten и Obsidian - лучшие друзья вашей памяти и креативности.md](../raw/Zettelkasten%20%D0%B8%20Obsidian%20%E2%80%94%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F%20%D0%B2%D0%B0%D1%88%D0%B5%D0%B9%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B5%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md)
-- [raw/Getting Started with Zettelkasten in Obsidian.md](../raw/Getting%20Started%20with%20Zettelkasten%20in%20Obsidian.md)
+- [raw/llm/Build a Second Brain…](../raw/llm/Build%20a%20Second%20Brain%20Using%20Obsidian%20%E2%80%93%20A%20Practical%20Guide%20for%20Engineers.md)
+- [raw/llm/Zettelkasten и Obsidian — лучшие друзья…](../raw/llm/Zettelkasten%20%D0%B8%20Obsidian%20%E2%80%94%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F%20%D0%B2%D0%B0%D1%88%D0%B5%D0%B9%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B5%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md)
+- [raw/llm/Getting Started with Zettelkasten in Obsidian.md](../raw/llm/Getting%20Started%20with%20Zettelkasten%20in%20Obsidian.md)
 
 ## Связи
 

@@ -24,10 +24,10 @@ LLM Wiki - это паттерн личной базы знаний, где LLM 
 
 ## Источники
 
-- [raw/llm-wiki.md](../raw/llm-wiki.md) - оригинальный паттерн Karpathy.
-- [raw/LLM Wiki v2 - extending Karpathy's LLM Wiki pattern with lessons from building agentmemory.md](../raw/LLM%20Wiki%20v2%20%E2%80%94%20extending%20Karpathy's%20LLM%20Wiki%20pattern%20with%20lessons%20from%20building%20agentmemory.md) - расширение с lifecycle, graph и automation.
-- [raw/Building my Personal LLM Wiki (Part 1) The Motivation.md](<../raw/Building%20my%20Personal%20LLM%20Wiki%20(Part%201)%20The%20Motivation.md>) - мотивация личной реализации.
-- [raw/Building my Personal LLM Wiki (Part 2) The Technical Implementation.md](<../raw/Building%20my%20Personal%20LLM%20Wiki%20(Part%202)%20The%20Technical%20Implementation.md>) - техническая реализация.
+- [raw/llm/llm-wiki.md](../raw/llm/llm-wiki.md) - оригинальный паттерн Karpathy.
+- [raw/llm/LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory.md](../raw/llm/LLM%20Wiki%20v2%20%E2%80%94%20extending%20Karpathy's%20LLM%20Wiki%20pattern%20with%20lessons%20from%20building%20agentmemory.md) - расширение с lifecycle, graph и automation.
+- [raw/llm/Building my Personal LLM Wiki (Part 1) The Motivation.md](<../raw/llm/Building%20my%20Personal%20LLM%20Wiki%20(Part%201)%20The%20Motivation.md>) - мотивация личной реализации.
+- [raw/llm/Building my Personal LLM Wiki (Part 2) The Technical Implementation.md](<../raw/llm/Building%20my%20Personal%20LLM%20Wiki%20(Part%202)%20The%20Technical%20Implementation.md>) - техническая реализация.
 
 ## Связи
 

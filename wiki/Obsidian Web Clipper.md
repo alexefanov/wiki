@@ -27,9 +27,9 @@ Web Clipper удобен как вход в `raw/`: он позволяет бы
 
 ## Источники
 
-- [raw/Introduction to Obsidian Web Clipper.md](../raw/Introduction%20to%20Obsidian%20Web%20Clipper.md)
-- [raw/llm-wiki.md](../raw/llm-wiki.md)
-- [raw/Building my Personal LLM Wiki (Part 1) The Motivation.md](<../raw/Building%20my%20Personal%20LLM%20Wiki%20(Part%201)%20The%20Motivation.md>)
+- [raw/llm/Introduction to Obsidian Web Clipper.md](../raw/llm/Introduction%20to%20Obsidian%20Web%20Clipper.md)
+- [raw/llm/llm-wiki.md](../raw/llm/llm-wiki.md)
+- [raw/Building my Personal LLM Wiki (Part 1) The Motivation.md](<Building my Personal LLM Wiki (Part 1) The Motivation.md>)
 
 ## Связи
 

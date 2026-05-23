@@ -1,6 +1,6 @@
 {
   "pythonPath": "python",
-  "enablePlugins": true,
+  "enablePlugins": false,
   "pluginArgs": [],
   "docintelEndpoint": "",
   "outputPath": "raw",
@@ -14,6 +14,158 @@
   "enableAutoFrontmatter": true,
   "autoTags": "",
   "conversionHistory": [
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\1.3obzornormjhark2020.pdf",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\1.3obzornormjhark2020.md",
+      "timestamp": "2026-05-23T08:19:44.471Z",
+      "success": true,
+      "processingTimeMs": 50076,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\ГОСТ_27751-2014.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\ГОСТ_27751-2014.md",
+      "timestamp": "2026-05-22T08:24:10.689Z",
+      "success": true,
+      "processingTimeMs": 19264,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779349066910____349.1325800.2017.htm",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.md",
+      "timestamp": "2026-05-21T07:37:55.803Z",
+      "success": true,
+      "processingTimeMs": 8836,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.md",
+      "timestamp": "2026-05-21T07:31:52.902Z",
+      "success": true,
+      "processingTimeMs": 24219,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779348375525____349.1325800.2017.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.md",
+      "timestamp": "2026-05-21T07:26:38.313Z",
+      "success": true,
+      "processingTimeMs": 22755,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\СП 349.1325800.2017.md",
+      "timestamp": "2026-05-21T07:25:10.362Z",
+      "success": true,
+      "processingTimeMs": 19110,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 12-4.2000 Положение о порядке расследования причин аварий зданий и сооружений, их частей и конструктивных элементов на территории Российской Федерации.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 12-4.2000 Положение о порядке расследования причин аварий зданий и сооружений, их частей и конструктивных элементов на территории Российской Федерации.md",
+      "timestamp": "2026-05-21T06:42:03.759Z",
+      "success": true,
+      "processingTimeMs": 13046,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\gurPb89T6G1lK2Y.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\gurPb89T6G1lK2Y.md",
+      "timestamp": "2026-05-21T06:40:17.083Z",
+      "success": true,
+      "processingTimeMs": 51795,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\gurPb89T6G1lK2Y.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\gurPb89T6G1lK2Y.md",
+      "timestamp": "2026-05-20T21:56:50.378Z",
+      "success": true,
+      "processingTimeMs": 22538,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779313482376_zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.md",
+      "timestamp": "2026-05-20T21:45:03.561Z",
+      "success": true,
+      "processingTimeMs": 21144,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.md",
+      "timestamp": "2026-05-20T21:41:52.221Z",
+      "success": true,
+      "processingTimeMs": 18719,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.md",
+      "timestamp": "2026-05-20T21:30:58.513Z",
+      "success": true,
+      "processingTimeMs": 16098,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779312534537_zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\zashhita_betonnykh_konstrukcijj_k_snip_2.03.11-85.md",
+      "timestamp": "2026-05-20T21:29:19.446Z",
+      "success": true,
+      "processingTimeMs": 24821,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T20:17:11.758Z",
+      "success": true,
+      "processingTimeMs": 33932,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T19:08:10.053Z",
+      "success": true,
+      "processingTimeMs": 21685,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T18:57:16.295Z",
+      "success": true,
+      "processingTimeMs": 15024,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T18:53:59.750Z",
+      "success": true,
+      "processingTimeMs": 13426,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779303067718_____13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T18:51:24.029Z",
+      "success": true,
+      "processingTimeMs": 16243,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779298304710_____13-20.2004.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\МДС 13-20.2004.md",
+      "timestamp": "2026-05-20T17:32:05.693Z",
+      "success": true,
+      "processingTimeMs": 20936,
+      "imagesExtracted": 0
+    },
     {
       "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779295043609___.__________________.pdf",
       "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\РД. ЭО Мониторинг АЭС.md",
