@@ -16,7 +16,7 @@ Obsidian - локальная markdown-среда для связанных за
 ## Полезные функции
 
 - [[Obsidian Web Clipper]] для сохранения web-страниц в `raw/`.
-- Templates и Dataview могут помочь, если появится frontmatter с `confidence`, `last_verified`, `sources` и `relationships`.
+- Templates и Dataview могут помочь, если появится frontmatter с `Уверенность`, `Обновлено`, `Источники` и `Связи`.
 - Git полезен для истории изменений wiki.
 
 ## Источники
