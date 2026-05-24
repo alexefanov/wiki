@@ -15,6 +15,14 @@
   "autoTags": "",
   "conversionHistory": [
     {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\Бутырин. Теория и практика ССТЭ.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\Бутырин. Теория и практика ССТЭ.md",
+      "timestamp": "2026-05-24T09:56:52.432Z",
+      "success": true,
+      "processingTimeMs": 29798,
+      "imagesExtracted": 0
+    },
+    {
       "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\1.3obzornormjhark2020.pdf",
       "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\1.3obzornormjhark2020.md",
       "timestamp": "2026-05-23T08:19:44.471Z",
