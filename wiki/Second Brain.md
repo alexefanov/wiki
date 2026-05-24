@@ -1,12 +1,10 @@
 ---
 type: концепция
-title: Second Brain
 domain: llm_wiki
-description: Obsidian подходит для Second Brain благодаря markdown, локальному хранению, двунаправленным ссылкам, graph view и plugin-экосистеме. Источник для инженеров особенно выделяет templates, Calendar, QuickAdd, Periodic Notes и Dataview. PARA - один из практичных способов организовать Second Brain. Он делит материалы на Projects, Areas, Resources и Archives. Это полезно для повседневного использования, но для LLM Wiki центральной структурой остается raw/ + wiki/.
+title: Second Brain
+description: - raw/llm/Building my Personal LLM Wiki (Part 1) The Motivation.md%20The%20Motivation.md>)
 tags:
   - llm_wiki
-  - obsidian
-  - zettelkasten
   - концепция
   - нагрузки
 raw_source: raw/`

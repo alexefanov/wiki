@@ -1,11 +1,10 @@
 ---
 type: концепция
-title: Zettelkasten
 domain: llm_wiki
-description: Одна заметка - одна главная мысль. Заметка должна быть понятна без исходного контекста.
+title: Zettelkasten
+description: - Одна заметка - одна главная мысль.
 tags:
   - llm_wiki
-  - zettelkasten
   - концепция
 raw_source: "raw/`:"
 ---

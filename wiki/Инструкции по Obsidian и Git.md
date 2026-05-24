@@ -1,10 +1,9 @@
 ---
 type: инструкция
 domain: llm_wiki
-description: #Настройка Web Clipper #Сохранение новых файлов и картинок
+description: #Настройка Web Clipper
 tags:
   - llm_wiki
-  - obsidian
   - инструкция
 ---
 

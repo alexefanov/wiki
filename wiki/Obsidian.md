@@ -1,11 +1,10 @@
 ---
 type: концепция
-title: Obsidian
 domain: llm_wiki
-description: Markdown-файлы легко читать, diff-ить, версионировать и редактировать агентом. wikilinks создают явную сеть между страницами.
+title: Obsidian
+description: - Markdown-файлы легко читать, diff-ить, версионировать и редактировать агентом.
 tags:
   - llm_wiki
-  - obsidian
   - концепция
 raw_source: raw/`
 ---

@@ -1,8 +1,8 @@
 ---
 type: концепция
-title: LLM Wiki
 domain: llm_wiki
-description: "В обычном RAG LLM заново извлекает релевантные куски при каждом вопросе. В LLM Wiki знание сначала перерабатывается в устойчивый промежуточный слой - wiki/, а затем переиспользуется. Это делает базу compounding artifact: новые источники усиливают, уточняют или оспаривают уже существующие страницы. wiki/ - LLM-maintained markdown-страницы: summaries, concept pages, entity pages, comparisons, synthesis."
+title: LLM Wiki
+description: "- raw/ - неизменяемые источники истины: статьи, клипы, pdf, транскрипты, ссылки."
 tags:
   - llm_wiki
   - концепция

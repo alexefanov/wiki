@@ -1,13 +1,12 @@
 ---
 type: концепция
-title: PARA
 domain: llm_wiki
-description: Projects - активные краткосрочные цели с результатом. Areas - долгосрочные зоны ответственности, например здоровье или карьера.
+title: PARA
+description: - Projects - активные краткосрочные цели с результатом.
 tags:
   - llm_wiki
   - концепция
   - материалы
-  - ответственность
 raw_source: raw/`
 ---
 

@@ -1,14 +1,12 @@
 ---
 type: концепция
-title: Obsidian Web Clipper
 domain: llm_wiki
-description: "Web Clipper удобен как вход в raw/: он позволяет быстро сохранять статьи и web-страницы в markdown, после чего LLM может выполнить LLM Wiki Workflow и обновить wiki/. Clip web pages - сохранение страниц."
+title: Obsidian Web Clipper
+description: "Web Clipper удобен как вход в raw/: он позволяет быстро сохранять статьи и web-страницы в markdown, после чего LLM может выполнить LLM Wiki Workflow и обновить wiki/."
 tags:
   - llm_wiki
-  - obsidian
-  - workflow
   - концепция
-raw_source: "raw/`:"
+raw_source: "raw/:"
 ---
 
 # Obsidian Web Clipper
