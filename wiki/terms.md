@@ -1,9 +1,9 @@
 ---
-domain: служебная
-title: terms
-description: "Термины и определения из источников в `raw/` и `raw/llm/` Связанные страницы: [[index]], [[Source Notes]]"
+type: служебная
+description: Термины и определения из источников в `raw/` и `raw/llm/` Сортировка по алфавиту в каждой категории
 tags:
   - служебная
+raw_source: raw/,
 ---
 
 # terms

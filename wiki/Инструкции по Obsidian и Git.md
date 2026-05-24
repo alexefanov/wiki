@@ -1,12 +1,11 @@
 ---
+type: инструкция
 domain: llm_wiki
-title: Инструкции по Obsidian и Git
 description: "[[#Настройка Web Clipper]] [[#Сохранение новых файлов и картинок]]"
-url: "https://deepwiki.com/obsidianmd/obsidian-clipper/5.1-template-system"
 tags:
   - llm_wiki
   - obsidian
-  - неразрушающий_контроль
+  - инструкция
 ---
 
 ### Сводная инструкция по настройке Obsidian и Git (Windows)

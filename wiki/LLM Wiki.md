@@ -1,11 +1,12 @@
 ---
+type: концепция
 domain: llm_wiki
-title: LLM Wiki
-description: "LLM Wiki - это паттерн личной базы знаний, где LLM не просто отвечает по raw-документам, а постепенно компилирует из них persistent wiki: саммари, концепты, сущности, синтезы и связи В обычном RAG LLM заново извлекает релевантные куски при каждом воп"
+description: "LLM Wiki - это паттерн личной базы знаний, где LLM не просто отвечает по raw-документам, а постепенно компилирует из них persistent wiki: саммари, концепты, сущности, синтезы и связи В обычном RAG LLM заново извлекает релевантные куски при каждом вопросе"
 tags:
   - llm_wiki
   - second_brain
-raw_source: llm/llm-wiki.md
+  - концепция
+raw_source: raw/llm/llm-wiki.md
 ---
 
 # LLM Wiki

@@ -1,13 +1,13 @@
 ---
+type: концепция
 domain: llm_wiki
-title: PARA
 description: "PARA - метод организации Second Brain от Tiago Forte: Projects, Areas, Resources, Archives Projects - активные краткосрочные цели с результатом"
 tags:
   - llm_wiki
-  - second_brain
+  - концепция
   - материалы
   - ответственность
-raw_source: llm/Build a Second Brain Using Obsidian - A Practical Guide for Engineers.md
+raw_source: raw/`
 ---
 
 # PARA

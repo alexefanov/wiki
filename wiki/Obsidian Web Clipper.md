@@ -1,12 +1,12 @@
 ---
+type: инструкция
 domain: llm_wiki
-title: Obsidian Web Clipper
-description: "Obsidian Web Clipper - browser extension для сохранения web-страниц, highlights и выбранного контента в Obsidian vault Web Clipper удобен как вход в `raw/`: он позволяет быстро сохранять статьи и web-страницы в markdown, после чего LLM может выполнит"
+description: "Obsidian Web Clipper - browser extension для сохранения web-страниц, highlights и выбранного контента в Obsidian vault Web Clipper удобен как вход в `raw/`: он позволяет быстро сохранять статьи и web-страницы в markdown, после чего LLM может выполнить [[LLM Wiki Workflow|ingest]] и обновить `wiki/`"
 tags:
   - llm_wiki
   - obsidian
-  - workflow
-raw_source: llm/Introduction to Obsidian Web Clipper.md
+  - инструкция
+raw_source: raw/`.
 ---
 
 # Obsidian Web Clipper
