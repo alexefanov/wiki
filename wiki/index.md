@@ -1,10 +1,7 @@
 ---
-type: index
-domain: нормативная_база
-lang: ru
-pages_wiki: ~108
-sources_raw: ~60
-agent_rules: AGENTS.md
+type: служебная
+description: "Карта обработанной базы знаний по строительному обследованию, экспертизе и контролю качества. Правила поведения для LLM, поддерживающего этот vault, — в AGENTS.md (корень репозитория). Кратко:"
+raw_source: raw/`
 ---
 
 # LLM-Wiki Index

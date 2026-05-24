@@ -1,9 +1,9 @@
 ---
 type: служебная
-description: Краткие заметки по ingested источникам LLM-материалы — в `raw/llm/`; нормативка по обследованию — в `raw/` (корень)
+description: Краткие заметки по ingested источникам. LLM-материалы — в raw/llm/; нормативка по обследованию — в raw/ (корень). | Источник | Wiki | URL |
 tags:
   - служебная
-raw_source: raw/llm/Zettelkasten…
+raw_source: raw/llm/`;
 ---
 
 # Source Notes

@@ -1,11 +1,13 @@
 ---
-type: инструкция
+type: концепция
+title: LLM Wiki Workflow
 domain: llm_wiki
-description: "Основные операции LLM Wiki: ingest, query, lint и crystallization Они превращают vault из папки с заметками в поддерживаемую систему знаний"
+description: "Основные операции LLM Wiki: ingest, query, lint и crystallization. Они превращают vault из папки с заметками в поддерживаемую систему знаний. Ingest нового источника:"
 tags:
   - llm_wiki
   - workflow
-  - инструкция
+  - концепция
+  - терминология
 raw_source: raw/`
 ---
 
