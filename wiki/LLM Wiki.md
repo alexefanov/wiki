@@ -1,12 +1,9 @@
 ---
 type: концепция
-domain: llm_wiki
 title: LLM Wiki
-description: "- raw/ - неизменяемые источники истины: статьи, клипы, pdf, транскрипты, ссылки."
+description: "LLM Wiki - это паттерн личной базы знаний, где LLM не просто отвечает по raw-документам, а постепенно компилирует из них persistent wiki: саммари, концепты, сущности, синтезы и связи."
 tags:
   - llm_wiki
-  - концепция
-raw_source: raw/llm/llm-wiki.md
 ---
 
 # LLM Wiki

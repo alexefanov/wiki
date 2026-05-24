@@ -1,13 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: LLM Wiki Lifecycle
-description: "Lifecycle-подход решает проблему “wiki rot“: не все утверждения остаются одинаково точными, свежими и полезными."
+description: "Lifecycle-подход решает проблему wiki rot: не все утверждения остаются одинаково точными, свежими и полезными."
 tags:
   - llm_wiki
-  - концепция
-  - надежность
-raw_source: raw/`,
+  - lifecycle
 ---
 
 # LLM Wiki Lifecycle

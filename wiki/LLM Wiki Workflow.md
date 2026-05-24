@@ -1,13 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: LLM Wiki Workflow
 description: "Основные операции LLM Wiki: ingest, query, lint и crystallization. Они превращают vault из папки с заметками в поддерживаемую систему знаний."
 tags:
   - llm_wiki
-  - концепция
-  - терминология
-raw_source: raw/`
+  - workflow
 ---
 
 # LLM Wiki Workflow

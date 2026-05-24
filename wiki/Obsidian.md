@@ -1,12 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: Obsidian
-description: - Markdown-файлы легко читать, diff-ить, версионировать и редактировать агентом.
+description: "Obsidian - локальная markdown-среда для связанных заметок. В контексте этой базы он выступает как IDE для LLM Wiki: пользователь читает и навигирует по wiki, а LLM поддерживает структуру."
 tags:
   - llm_wiki
-  - концепция
-raw_source: raw/`
+  - obsidian
 ---
 
 # Obsidian

@@ -1,13 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: Second Brain
-description: - raw/llm/Building my Personal LLM Wiki (Part 1) The Motivation.md%20The%20Motivation.md>)
+description: "Second Brain - внешний доверенный контур для мыслей, задач, идей и знаний. В источниках он описан как способ снизить нагрузку на память и превратить разрозненные захваты в систему, которая помогает думать."
 tags:
   - llm_wiki
-  - концепция
-  - нагрузки
-raw_source: raw/`
+  - second_brain
 ---
 
 # Second Brain

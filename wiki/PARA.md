@@ -1,13 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: PARA
-description: - Projects - активные краткосрочные цели с результатом.
+description: "PARA - метод организации Second Brain от Tiago Forte: Projects, Areas, Resources, Archives."
 tags:
   - llm_wiki
-  - концепция
-  - материалы
-raw_source: raw/`
+  - para
 ---
 
 # PARA

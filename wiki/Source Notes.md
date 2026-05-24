@@ -1,6 +1,7 @@
 ---
-type: служебная
-description: Краткие заметки по ingested источникам. LLM-материалы — в raw/llm/; нормативка по обследованию — в raw/ (корень). | Источник | Wiki | URL |
+type: source_notes
+title: Реестр ingested источников
+description: Реестр всех ingested источников vault с указанием их типа и ключевых терминов.
 ---
 
 # Source Notes

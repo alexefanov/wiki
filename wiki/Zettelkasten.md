@@ -1,12 +1,10 @@
 ---
 type: концепция
-domain: llm_wiki
 title: Zettelkasten
-description: - Одна заметка - одна главная мысль.
+description: "Zettelkasten - метод связанных атомарных заметок, возникший из практики Никласа Лумана. Цель - не просто хранить информацию, а создавать сеть идей, которая помогает думать и писать."
 tags:
   - llm_wiki
-  - концепция
-raw_source: "raw/`:"
+  - zettelkasten
 ---
 
 # Zettelkasten

@@ -1,10 +1,11 @@
 ---
 type: инструкция
-domain: llm_wiki
-description: #Настройка Web Clipper
+title: Инструкции по Obsidian и Git
+description: "Настройка Obsidian Web Clipper, сохранение вложений, решение ошибок Git: broken pipe и Filename too long."
 tags:
   - llm_wiki
-  - инструкция
+  - obsidian
+  - git
 ---
 
 ### Сводная инструкция по настройке Obsidian и Git (Windows)
