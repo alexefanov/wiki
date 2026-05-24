@@ -1,3 +1,12 @@
+---
+domain: служебная
+title: Source Notes
+description: Краткие заметки по ingested источникам | Источник | Wiki | URL |
+url: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+tags:
+  - служебная
+---
+
 # Source Notes
 
 Краткие заметки по ingested источникам. LLM-материалы — в `raw/llm/`; нормативка по обследованию — в `raw/` (корень).

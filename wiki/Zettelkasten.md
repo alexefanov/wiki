@@ -1,3 +1,14 @@
+---
+domain: llm_wiki
+title: Zettelkasten
+description: Zettelkasten - метод связанных атомарных заметок, возникший из практики Никласа Лумана Одна заметка - одна главная мысль
+tags:
+  - llm_wiki
+  - obsidian
+  - zettelkasten
+raw_source: llm/Zettelkasten и Obsidian ваш помощник в структурировании знаний.md
+---
+
 # Zettelkasten
 
 Zettelkasten - метод связанных атомарных заметок, возникший из практики Никласа Лумана. Цель - не просто хранить информацию, а создавать сеть идей, которая помогает думать и писать.

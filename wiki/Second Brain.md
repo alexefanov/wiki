@@ -1,3 +1,16 @@
+---
+domain: llm_wiki
+title: Second Brain
+description: Second Brain - внешний доверенный контур для мыслей, задач, идей и знаний Second Brain шире, чем [[Zettelkasten]] и [[LLM Wiki]]
+tags:
+  - llm_wiki
+  - obsidian
+  - second_brain
+  - zettelkasten
+  - надежность
+raw_source: llm/Build a Second Brain Using Obsidian - A Practical Guide for Engineers.md
+---
+
 # Second Brain
 
 Second Brain - внешний доверенный контур для мыслей, задач, идей и знаний. В источниках он описан как способ снизить нагрузку на память и превратить разрозненные захваты в систему, которая помогает думать.

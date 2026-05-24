@@ -1,13 +1,11 @@
 ---
-type: index
-domain: строительное_обследование_экспертиза
-lang: ru
-pages_wiki: ~105
-sources_raw: ~132
-agent_rules: AGENTS.md
-confidence_freshness: true
-source_of_truth: raw/
+domain: служебная
+title: LLM-Wiki Index
+description: Карта обработанной базы знаний по строительному обследованию, экспертизе и контролю качества Правила поведения для LLM, поддерживающего этот vault, — в `AGENTS
+tags:
+  - служебная
 ---
+
 # LLM-Wiki Index
 
 Карта обработанной базы знаний по строительному обследованию, экспертизе и контролю качества.
