@@ -1,13 +1,8 @@
 ---
-title: "Building my Personal LLM Wiki (Part 1): The Motivation"
 source: "https://www.rangaprabhu.com/blog/building-my-llm-wiki"
-author:
-  - "[[Written By Rangaprabhu Parthasarathy]]"
-published: 2026-04-08
-created: 2026-05-04
+created: "2026-05-04"
+title: "Building my Personal LLM Wiki (Part 1): The Motivation"
 description: "Inspired by Karpathy’s post, my ongoing journey in building my own llm wiki."
-tags:
-  - "clippings"
 ---
 Inspired by Andrej Karpathy’s [post](https://x.com/karpathy/status/2039805659525644595?s=20) and subsequent [LLM Wiki note](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#llm-wiki), I have built a simple personal LLM Wiki. After building a [sophisticated second brain system at work](https://www.rangaprabhu.com/blog/leveraging-my-second-brain-to-build-a-chief-of-staff-and-secretary), I was looking for a simpler, lightweight solution for my personal stuff. Karpathy’s post was a great starting point: instead of investing in a large repository, start with something small, have the model incrementally build and maintain a persistent wiki that compounds as new sources arrive. In the first of two posts, I will share how I got started and how I approached the exercise. In my second post, I will share the technical underpinnings so you too can build your personal wiki.
 

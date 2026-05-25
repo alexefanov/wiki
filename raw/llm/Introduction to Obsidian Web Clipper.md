@@ -1,12 +1,8 @@
 ---
-title: "Introduction to Obsidian Web Clipper"
 source: "https://obsidian.md/help/web-clipper"
-author:
-published:
-created: 2026-05-04
+created: "2026-05-04"
+title: "Introduction to Obsidian Web Clipper"
 description: "Introduction to Obsidian Web Clipper - Obsidian Help"
-tags:
-  - "clippings"
 ---
 [Obsidian Help](https://obsidian.md/help/Home)
 

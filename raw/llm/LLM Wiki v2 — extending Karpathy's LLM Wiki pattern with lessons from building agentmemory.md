@@ -1,12 +1,8 @@
 ---
-title: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory"
 source: "https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2"
-author:
-published:
-created: 2026-05-04
+created: "2026-05-04"
+title: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory"
 description: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory - llm-wiki.md"
-tags:
-  - "clippings"
 ---
 ## LLM Wiki v2
 
