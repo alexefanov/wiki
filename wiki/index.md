@@ -4,7 +4,7 @@ domain: строительство
 lang: ru
 pages_wiki: 120
 sources_raw: 149
-agent_rules: AGENTS_V2.md
+agent_rules: AGENTS.md
 ---
 
 # LLM-Wiki Index
