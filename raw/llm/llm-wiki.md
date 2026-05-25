@@ -2,7 +2,7 @@
 source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 created: "2026-05-04"
 title: "llm-wiki"
-description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."
+description: "Andrej Karpathy's original LLM Wiki idea file — a pattern for building persistent, AI-maintained personal knowledge bases using LLMs. Core concept: incremental compilation of knowledge into a structured wiki instead of RAG-style retrieval."
 ---
 ## LLM Wiki
 

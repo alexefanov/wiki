@@ -2,7 +2,7 @@
 source: "https://www.rangaprabhu.com/blog/building-my-personal-llm-wiki-part-2-the-implementation"
 created: "2026-05-04"
 title: "Building my Personal LLM Wiki (Part 2): The Technical Implementation"
-description: "Following up on my previous post on what prompted me to build my personal LLM Wiki, here is the promised technical flow (per Claude Code)."
+description: "Technical implementation of a personal LLM Wiki using Claude Code, Obsidian, and Python — four-layer architecture, automated ingestion, lifecycle management, and health monitoring at scale (39 pages, 5 domains, 68 relationships)."
 ---
 Following up on my [previous post](https://www.rangaprabhu.com/blog/building-my-llm-wiki) on what prompted me to build my personal LLM Wiki, here is the promised technical flow (per Claude Code). Note that some of the domains are placeholders and you should be able to create as many of your own as you like. And bonus, I built a front end for it with Codex. Here is what it looks like.
 

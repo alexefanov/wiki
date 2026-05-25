@@ -2,7 +2,7 @@
 source: "https://ps11.hashnode.dev/engineers-guide-to-building-a-second-brain-in-obsidian-practical-tips"
 created: "2026-05-04"
 title: "Build a Second Brain Using Obsidian – A Practical Guide for Engineers"
-description: "Discover how to use Obsidian and the PARA method to organize your thoughts, boost productivity, and build a Second Brain that works like your personal knowl"
+description: "Practical guide for engineers on building a Second Brain in Obsidian using the PARA method — organising thoughts, boosting productivity, and building a trusted external knowledge system."
 ---
 ![Engineers' Guide to Building a Second Brain in Obsidian: Practical Tips](https://ps11.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1746047711217%2F9827035b-832a-4598-88c2-35bf96380779.png&w=3840&q=75)
 

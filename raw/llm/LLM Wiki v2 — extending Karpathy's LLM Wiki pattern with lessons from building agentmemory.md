@@ -2,7 +2,7 @@
 source: "https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2"
 created: "2026-05-04"
 title: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory"
-description: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory - llm-wiki.md"
+description: "Extended version of Karpathy's LLM Wiki pattern incorporating lessons from building agentmemory — adds confidence scoring, supersession tracking, knowledge lifecycle management, and production-scale considerations."
 ---
 ## LLM Wiki v2
 
