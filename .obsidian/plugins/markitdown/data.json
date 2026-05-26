@@ -15,6 +15,30 @@
   "autoTags": "",
   "conversionHistory": [
     {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\tmp_1779825414449_126-246-1-SM.pdf",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\126-246-1-SM.md",
+      "timestamp": "2026-05-26T19:57:04.110Z",
+      "success": true,
+      "processingTimeMs": 9533,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\minjust\\126-246-1-SM.pdf",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\126-246-1-SM.md",
+      "timestamp": "2026-05-26T19:55:14.572Z",
+      "success": true,
+      "processingTimeMs": 8582,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\minjust\\3-2-1-SM.pdf",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\3-2-1-SM.md",
+      "timestamp": "2026-05-26T19:54:15.649Z",
+      "success": true,
+      "processingTimeMs": 23600,
+      "imagesExtracted": 0
+    },
+    {
       "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\Бутырин. Теория и практика ССТЭ.docx",
       "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\Бутырин. Теория и практика ССТЭ.md",
       "timestamp": "2026-05-24T09:56:52.432Z",
