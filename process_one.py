@@ -393,18 +393,34 @@ def process_file(filepath):
     return meta
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python process_one.py <filename>")
-        sys.exit(1)
-    fname = sys.argv[1]
-    fp = RAW_DIR / fname
-    if not fp.exists():
-        print(f"File not found: {fp}")
-        sys.exit(1)
-    meta = process_file(fp)
-    print(f"OK: {fname}")
-    print(f"  type={meta.get('type','')} number={meta.get('number','')}")
-    print(f"  name={meta.get('name','')[:60]}")
-    print(f"  year={meta.get('year','')} actualization={meta.get('actualization_date','')}")
-    print(f"  oks={meta.get('oks','')} udk={meta.get('udk','')} bbk={meta.get('bbk','')}")
-    print(f"  tags={meta.get('tags','')}")
+    # If called with --all, process all remaining files (those without type field)
+    if len(sys.argv) > 1 and sys.argv[1] == "--all":
+        remaining = []
+        for fp in sorted(RAW_DIR.glob("*.md")):
+            with open(fp, "r", encoding="utf-8-sig") as f:
+                c = f.read()
+            if c.startswith("---"):
+                end = c.index("---", 3)
+                fm = c[3:end].strip()
+                if not re.search(r'^type:', fm, re.MULTILINE):
+                    remaining.append(fp.name)
+        total = len(remaining)
+        print(f"Remaining: {total}")
+        for i, fn in enumerate(remaining, 1):
+            fpath = RAW_DIR / fn
+            try:
+                meta = process_file(fpath)
+                print(f"[{i}/{total}] {fn[:60]} -> {meta.get('type','')} | {meta.get('year','')}")
+            except Exception as e:
+                print(f"[{i}/{total}] ERROR {fn}: {e}")
+        print("Done.")
+    elif len(sys.argv) >= 2:
+        fname = sys.argv[1]
+        fp = RAW_DIR / fname
+        if not fp.exists():
+            print(f"File not found: {fp}")
+            sys.exit(1)
+        meta = process_file(fp)
+        print(f"OK: {fname[:60]}")
+    else:
+        print("Usage: python process_one.py <filename> or python process_one.py --all")
