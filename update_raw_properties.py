@@ -315,7 +315,6 @@ def derive_metadata(fname_stem: str, text: str):
         "udk": "",
         "bbk": "",
         "tags": [],
-        "raw_source": f"raw/{fname_stem}.md",
     }
 
     fname = fname_stem + ".md"
@@ -755,74 +754,31 @@ def derive_metadata(fname_stem: str, text: str):
         return _finalize_meta(meta, fname_stem, text)
 
     # ------------------------------------------------------------------------
-    # "Бетоны. Определение прочности..." → ГОСТ 22690-2015
+    # Embedded GOST / СП in filename (e.g. "Бетоны... ГОСТ 22690-2015")
     # ------------------------------------------------------------------------
-    # Files like "Бетоны. Определение прочности механическими методами неразрушающего контроля. ГОСТ 22690-2015..."
-    m_embedded_gost = re.search(r'ГОСТ\s+(\d[\d]*[\d\.]*(?:-\d{4})?)', fname_stem)
-    if m_embedded_gost:
+    m_egost = re.search(r'ГОСТ\s+(\d[\d]*(?:\.[\d]+)*(?:-\d{4})?)', fname_stem)
+    if m_egost:
         meta["type"] = "ГОСТ"
-        meta["number"] = m_embedded_gost.group(1)
-        prefix = fname_stem[:m_embedded_gost.start()].strip().strip(".— ")
-        meta["name"] = prefix
+        meta["number"] = m_egost.group(1)
+        meta["name"] = fname_stem[:m_egost.start()].strip().strip(".— ")
         meta["tags"] = ["стандарт"]
         return _finalize_meta(meta, fname_stem, text)
 
-    # "Здания и сооружения. Метод тепловизионного контроля... ГОСТ 26629-85"
-    m_embedded_gost2 = re.search(r'ГОСТ\s+(\d[\d]*[\d\.]*(?:-\d{4})?)', fname_stem)
-    if m_embedded_gost2:
-        meta["type"] = "ГОСТ"
-        meta["number"] = m_embedded_gost2.group(1)
-        meta["name"] = fname_stem[:m_embedded_gost2.start()].strip().strip(".— ")
-        meta["tags"] = ["стандарт"]
-        return _finalize_meta(meta, fname_stem, text)
-
-    # "Грунты. Методы измерения деформаций оснований зданий и сооружений. ГОСТ 24846-2019"
-    m_embedded_gost_any = re.search(r'ГОСТ\s+(\d[\d]*[\d\.]*(?:-\d{4})?)', fname_stem)
-    if m_embedded_gost_any:
-        meta["type"] = "ГОСТ"
-        meta["number"] = m_embedded_gost_any.group(1)
-        meta["name"] = fname_stem[:m_embedded_gost_any.start()].strip().strip(".— ")
-        meta["tags"] = ["стандарт"]
-        return _finalize_meta(meta, fname_stem, text)
-
-    # "Защита строительных конструкций от коррозии. ... СП 28.13330.2017"
-    m_embedded_sp = re.search(r'СП\s+(\d[\d]*[\d\.]*(?:-\d{4})?)', fname_stem)
-    if m_embedded_sp:
+    # Embedded СП in filename (e.g. "Защита... СП 28.13330.2017" or "Правила... СП 13-102-2003")
+    m_esp_dot = re.search(r'СП\s+(\d+[\d\.]*(?:-\d{4})?)', fname_stem)
+    if m_esp_dot:
         meta["type"] = "СП"
-        meta["number"] = m_embedded_sp.group(1)
-        meta["name"] = fname_stem[:m_embedded_sp.start()].strip().strip(".— ")
+        meta["number"] = m_esp_dot.group(1)
+        meta["name"] = fname_stem[:m_esp_dot.start()].strip().strip(".— ")
         meta["tags"] = ["свод_правил"]
         return _finalize_meta(meta, fname_stem, text)
-
-    # "Правила обследования несущих строительных конструкций зданий и сооружений. СП 13-102-2003"
-    m_embedded_sp2 = re.search(r'СП\s+([\d\-]{5,})', fname_stem)
-    if m_embedded_sp2:
+    m_esp_dash = re.search(r'СП\s+([\d\-]{5,})', fname_stem)
+    if m_esp_dash:
         meta["type"] = "СП"
-        meta["number"] = m_embedded_sp2.group(1)
-        meta["name"] = fname_stem[:m_embedded_sp2.start()].strip().strip(".— ")
+        meta["number"] = m_esp_dash.group(1)
+        meta["name"] = fname_stem[:m_esp_dash.start()].strip().strip(".— ")
         meta["tags"] = ["свод_правил"]
         return _finalize_meta(meta, fname_stem, text)
-
-    # "Управление качеством продукции. Основные понятия. ... ГОСТ 15467-79"
-    m_embedded_gost_st = re.search(r'ГОСТ\s+(\d[\d]*[\d\.]*(?:-\d{4})?)', fname_stem)
-    if m_embedded_gost_st:
-        meta["type"] = "ГОСТ"
-        meta["number"] = m_embedded_gost_st.group(1)
-        meta["name"] = fname_stem[:m_embedded_gost_st.start()].strip().strip(".— ")
-        meta["tags"] = ["стандарт"]
-        return _finalize_meta(meta, fname_stem, text)
-
-    # Fallback for embedded type in filename
-    # Search for any known type abbreviation embedded in filename
-    for pattern in [
-        (r'СП\s+([\d\.\-]+)', "СП"),
-    ]:
-        m = re.search(pattern[0], fname_stem)
-        if m:
-            meta["type"] = pattern[1]
-            meta["number"] = m.group(1)
-            meta["name"] = fname_stem
-            return _finalize_meta(meta, fname_stem, text)
 
     # ------------------------------------------------------------------------
     # Fallback: "Определение ..." files
@@ -854,6 +810,10 @@ def _finalize_meta(meta, fname_stem, text):
         meta["udk"] = udk
     if bbk:
         meta["bbk"] = bbk
+
+    # actualization_date defaults to year if not specified (AGENTS.md 14.5(7))
+    if not meta.get("actualization_date") and meta.get("year"):
+        meta["actualization_date"] = meta["year"]
 
     # regenerate tags if empty or we only have default
     if not meta.get("tags") or (len(meta["tags"]) <= 1 and meta["tags"][0] in ("стандарт", "свод_правил")):
@@ -957,8 +917,7 @@ def process_file(filepath: pathlib.Path) -> dict:
     else:
         meta["description"] = meta.get("name", fname_stem)
 
-    # raw_source
-    meta["raw_source"] = f"raw/{filepath.name}"
+    # raw_source not added — per AGENTS.md 14.5(11): "Для файлов в raw/ не заполняется"
 
     # build new frontmatter
     new_fm = build_frontmatter(meta)
