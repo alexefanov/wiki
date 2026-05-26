@@ -4,5 +4,6 @@
   "attachmentFolderPath": "./вложенные файлы",
   "deleteUnlinkedAttachments": "always",
   "newFileLocation": "current",
-  "newFileFolderPath": ""
+  "newFileFolderPath": "",
+  "showUnsupportedFiles": true
 }
