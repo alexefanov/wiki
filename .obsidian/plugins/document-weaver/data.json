@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "destinationFolder": "Imported",
+    "assetSubfolder": "_assets",
+    "filenameCollision": "number",
+    "watchFolders": [],
+    "watchIntervalMin": 5,
+    "watchSubfolders": false,
+    "afterImport": "archive",
+    "archiveFolder": "",
+    "pptxOutput": "single",
+    "useWikilinks": true,
+    "openAfterImport": true,
+    "showHwpBeta": false,
+    "language": "auto"
+  },
+  "watcherSeen": []
+}
