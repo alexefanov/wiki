@@ -1,8 +1,12 @@
 ---
-source: "https://obsidian.md/help/web-clipper"
-created: "2026-05-04"
 title: "Introduction to Obsidian Web Clipper"
-description: "Official Obsidian help page for the Web Clipper browser extension — installation, configuration, and usage for highlighting and saving web content directly to an Obsidian vault."
+source: "https://obsidian.md/help/web-clipper"
+author:
+published:
+created: 2026-05-04
+description: "Introduction to Obsidian Web Clipper - Obsidian Help"
+tags:
+  - "clippings"
 ---
 [Obsidian Help](https://obsidian.md/help/Home)
 

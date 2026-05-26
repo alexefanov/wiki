@@ -1,8 +1,13 @@
 ---
-source: "https://obsidian.rocks/getting-started-with-zettelkasten-in-obsidian/"
-created: "2026-05-04"
 title: "Getting Started with Zettelkasten in Obsidian"
-description: "Practical guide on implementing a Zettelkasten-like note-taking system in Obsidian — fleeting notes, permanent notes, heirloom notes, and a complete workflow for building a personal knowledge base."
+source: "https://obsidian.rocks/getting-started-with-zettelkasten-in-obsidian/"
+author:
+  - "[[Tim Miller]]"
+published: 2023-01-12
+created: 2026-05-04
+description: "Practicing Zettelkasten in Obsidian is easy, and it will change your life. Find out how here."
+tags:
+  - "clippings"
 ---
 I’ve been procrastinating on writing this article for one simple reason: I don’t feel qualified. Zettelkasten is a technical topic with a long history, and many people practice it more precisely than I do. There are lots of opinions on how to do Zettelkasten in Obsidian, and they all have merit.
 
