@@ -1,7 +1,5 @@
 [
-  "markitdown",
   "docxer",
-  "convert-base64-to-png",
   "obsidian-local-images-plus",
   "obsidian-git"
 ]
