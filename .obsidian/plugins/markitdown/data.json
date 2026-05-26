@@ -17,6 +17,22 @@
     {
       "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\minjust\\126-246-1-SM.docx",
       "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\126-246-1-SM.md",
+      "timestamp": "2026-05-26T21:59:27.342Z",
+      "success": true,
+      "processingTimeMs": 19200,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\minjust\\126-246-1-SM.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\126-246-1-SM.md",
+      "timestamp": "2026-05-26T21:53:35.527Z",
+      "success": true,
+      "processingTimeMs": 26744,
+      "imagesExtracted": 0
+    },
+    {
+      "inputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\minjust\\126-246-1-SM.docx",
+      "outputFile": "C:\\Users\\yefan.LAPTOP-T0BIR3IU\\Documents\\База\\raw\\126-246-1-SM.md",
       "timestamp": "2026-05-26T21:42:31.077Z",
       "success": true,
       "processingTimeMs": 21284,
