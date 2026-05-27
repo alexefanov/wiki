@@ -1,13 +1,13 @@
 ---
+type: статья
 title: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory"
-source: "https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2"
-author:
-published:
-created: 2026-05-04
-description: "LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory - llm-wiki.md"
+description: "Статья"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 ## LLM Wiki v2
 
 A pattern for building personal knowledge bases using LLMs. Extended with lessons from building [agentmemory](https://github.com/rohitg00/agentmemory), a persistent memory engine for AI coding agents.
