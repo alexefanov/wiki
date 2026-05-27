@@ -1,14 +1,13 @@
 ---
+type: статья
 title: "Getting Started with Zettelkasten in Obsidian"
-source: "https://obsidian.rocks/getting-started-with-zettelkasten-in-obsidian/"
-author:
-  - "[[Tim Miller]]"
-published: 2023-01-12
-created: 2026-05-04
-description: "Practicing Zettelkasten in Obsidian is easy, and it will change your life. Find out how here."
+description: "Введение в метод Zettelkasten в Obsidian"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 I’ve been procrastinating on writing this article for one simple reason: I don’t feel qualified. Zettelkasten is a technical topic with a long history, and many people practice it more precisely than I do. There are lots of opinions on how to do Zettelkasten in Obsidian, and they all have merit.
 
 However, I’ve learned a lot about it in the last couple of years. I’ve read several books, numerous articles, and attempted to implement it in my own life.

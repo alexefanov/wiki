@@ -1,14 +1,13 @@
 ---
-title: "Build a Second Brain Using Obsidian – A Practical Guide for Engineers"
-source: "https://ps11.hashnode.dev/engineers-guide-to-building-a-second-brain-in-obsidian-practical-tips"
-author:
-  - "[[Prasheel Soni]]"
-published: 2025-05-01
-created: 2026-05-04
-description: "Discover how to use Obsidian and the PARA method to organize your thoughts, boost productivity, and build a Second Brain that works like your personal knowl"
+type: статья
+title: "Build a Second Brain Using Obsidian. A Practical Guide for Engineers"
+description: "Практическое руководство для инженеров по созданию второй памяти в Obsidian"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 ![Engineers' Guide to Building a Second Brain in Obsidian: Practical Tips](https://ps11.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1746047711217%2F9827035b-832a-4598-88c2-35bf96380779.png&w=3840&q=75)
 
 ## Overview

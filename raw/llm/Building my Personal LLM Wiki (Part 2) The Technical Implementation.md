@@ -1,14 +1,13 @@
 ---
-title: "Building my Personal LLM Wiki (Part 2): The Technical Implementation"
-source: "https://www.rangaprabhu.com/blog/building-my-personal-llm-wiki-part-2-the-implementation"
-author:
-  - "[[Written By Rangaprabhu Parthasarathy]]"
-published: 2026-04-14
-created: 2026-05-04
-description: "Following up on my previous post on what prompted me to build my personal LLM Wiki, here is the promised technical flow (per Claude Code)."
+type: статья
+title: "Building my Personal LLM Wiki. Part 2. The Technical Implementation"
+description: "Техническая реализация персональной LLM Wiki"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 Following up on my [previous post](https://www.rangaprabhu.com/blog/building-my-llm-wiki) on what prompted me to build my personal LLM Wiki, here is the promised technical flow (per Claude Code). Note that some of the domains are placeholders and you should be able to create as many of your own as you like. And bonus, I built a front end for it with Codex. Here is what it looks like.
 
 00:32

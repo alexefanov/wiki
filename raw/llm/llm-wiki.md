@@ -1,13 +1,13 @@
 ---
-title: "llm-wiki"
-source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
-author:
-published:
-created: 2026-05-04
-description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."
+type: статья
+title: "LLM Wiki pattern"
+description: "Паттерн LLM Wiki для создания персональной базы знаний с помощью LLM-агентов"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 ## LLM Wiki
 
 A pattern for building personal knowledge bases using LLMs.

@@ -1,0 +1,3 @@
+LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building agentmemory.md
+Zettelkasten и Obsidian ваш помощник в структурировании знаний.md
+Zettelkasten и Obsidian — лучшие друзья вашей памяти и креативности.md

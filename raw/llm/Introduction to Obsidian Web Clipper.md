@@ -1,13 +1,13 @@
 ---
+type: статья
 title: "Introduction to Obsidian Web Clipper"
-source: "https://obsidian.md/help/web-clipper"
-author:
-published:
-created: 2026-05-04
-description: "Introduction to Obsidian Web Clipper - Obsidian Help"
+description: "Введение в расширение Obsidian Web Clipper для сохранения веб-контента"
 tags:
-  - "clippings"
+  - llm_wiki
+  - obsidian
+  - заметки
 ---
+
 [Obsidian Help](https://obsidian.md/help/Home)
 
 [Obsidian Help](https://obsidian.md/help/Home)
