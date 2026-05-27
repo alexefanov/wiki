@@ -2,7 +2,7 @@
 type: index
 domain: строительство
 lang: ru
-pages_wiki: 120
+pages_wiki: 121
 sources_raw: 149
 agent_rules: AGENTS.md
 ---
