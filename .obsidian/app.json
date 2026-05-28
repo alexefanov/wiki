@@ -5,5 +5,6 @@
   "deleteUnlinkedAttachments": "always",
   "newFileLocation": "current",
   "newFileFolderPath": "",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "tabSize": 4
 }
