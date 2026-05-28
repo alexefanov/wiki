@@ -17,4 +17,12 @@
 
 [^1]: Сноска
 
-Имя файла ![[КОНЦЕПЦИЯ]]
+> [!todo] Заголовок
+> 1. Lorem ipsum dolor sit amet
+> 2. вад
+> ^razvitie
+
+
+>[!todo] текст
+
+Имя файла ![[TODO#^razvitie]]
